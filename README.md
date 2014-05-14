@@ -1,24 +1,17 @@
-flash
+Flash by itzy
 =====
 
-A flash module for Anax-MVC
+A flash module for Anax-MVC, created by Julia Sivartsson, webdeveloper-student at Blekinge Tekniska Högskola.
+This module comes with a simple stylesheet and icons that are available if you have Font Awesome (information further down).
 
+It comes with four diffent styles:
+- information
+- success
+- warning
+- error
 
-The output with icons should look like this:
+Preview
 
-	<div class="flashy_info">
-		<i class="fa fa-info-circle"></i>
-		This is a info message
-	</div>
-	<div class="flashy_success">
-		<i class="fa fa-check"></i>
-		This is a success message
-	</div>
-	<div class="flashy_warning">
-		<i class="fa fa-warning"></i>
-		This is a warning message
-	</div>
-	<div class="flashy_error">
-		<i class="fa fa-times-circle"></i>
-		This is a error message
-	</div>
+=====
+
+![flash example](http://i60.tinypic.com/f1a52f.png)
