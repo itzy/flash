@@ -16,7 +16,7 @@ Preview
 ![flash example](http://i60.tinypic.com/f1a52f.png)
 
 
-How to use:
+How to use in Anax-MVC
 =====
 
 First of all you need to implement CFlash in your own Anax-MVC version, simply place the class in your 'src'-folder.
@@ -56,3 +56,21 @@ Now you can get flash by itzy for your own website.
     $this->flash->add('warning', 'Dude, I have to warn you, you do not look too good.');
     $this->flash->add('error', 'Oh snap, something went wrong!');
     
+To then make the messages visible, add the following code inside your route/controller:
+
+        //frontcontroller
+        $app->flash->get();
+        
+        //controller or view
+        $this->flash->get();
+        
+If you have support for Font Awesome, wich you get very easy from their page (http://fortawesome.github.io/Font-Awesome/) change the code to this:
+
+        //frontcontroller
+        $app->flash->get('icons');
+        
+        //controller or view
+        $this->flash->get('icons');
+        
+Not that hard, right!
+If you look at your page
