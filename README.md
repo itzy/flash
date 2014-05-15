@@ -1,6 +1,8 @@
 Flash by itzy
 =====
 
+![badge](https://travis-ci.org/itzy/flash.svg?branch=master)
+
 A flash module for Anax-MVC, created by Julia Sivartsson, webdeveloper-student at Blekinge Tekniska Högskola.
 This module comes with a simple stylesheet and icons that are available if you have Font Awesome (information further down).
 
