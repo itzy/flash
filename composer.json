@@ -1,0 +1,23 @@
+{   
+    "name": "itzy/flash",    
+    "type": "library",
+    "description": "Small flash class for Anax-MVC",
+    "keywords": ["flash", "mvc", "anax", "itzy", "flash"],
+    "homepage": "https://github.com/itzy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julia Sivartsson",
+            "email": "julia.sivartsson@gmail.com",
+            "homepage": "http://itzz.webs.com",
+            "role": "Student, Web developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "itzy\\": "src/" }
+    }
+
+}
