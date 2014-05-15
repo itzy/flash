@@ -2,7 +2,7 @@
 
 namespace kalkih\Flash;
 
-require_once(__DIR__ . '/../../src/Flash/Flash.php');
+require_once(__DIR__ . '/../../src/Flash/CFlash.php');
 
 class FlashTest extends \PHPUnit_Framework_TestCase
 {   
