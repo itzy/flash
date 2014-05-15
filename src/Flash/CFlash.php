@@ -1,6 +1,6 @@
 <?php
 
-namespace Anax\Flash;
+namespace itzy\Flash;
 
 /**
  *
