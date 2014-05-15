@@ -92,8 +92,7 @@ class CFlash
                 $messages .= $msg . "\n</div>";
             }
 
-            // Clear old messages
-            $this->clear();
+
         }
 
         return $messages;
