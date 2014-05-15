@@ -1,6 +1,6 @@
 <?php
 
-namespace kalkih\Flash;
+namespace itzy\Flash;
 
 require_once(__DIR__ . '/../../src/Flash/CFlash.php');
 
