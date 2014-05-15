@@ -73,7 +73,7 @@ If you have support for Font Awesome, wich you get very easy from their page (ht
         $this->flash->get('icons');
         
 Not that hard, right!
-If you look at the code of your website it will look like this:
+If you look at the code of your website it will look similar to this:
 
     <div class='flash_info'>
     <i class='fa fa-info-circle'></i>
